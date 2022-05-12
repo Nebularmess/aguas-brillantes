@@ -7,6 +7,68 @@
     font-family: 'Abril Fatface', cursive;
     background-image: linear-gradient(300deg, green, yellow);
 }
+.enlaces {
+    color: black;
+}
+.container-md {
+    height: 100%;
+}
+.row {
+    height: 50%;
+}
+.label {
+    color: black;
+    font-family: 'Abril Fatface';
+    font-size: 10px;
+}
+.form-control-sm {
+    font-size: 10px;
+    padding: 0px;
+    max-height:50px;
+    border: green solid 2px;
+    color: black;
+    background-color: rgb(255, 255, 123);
+}
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    color: black;
+}
+h2 {
+    color: black;
+}
+span {
+    color: black;
+}
+.row {
+    --bs-gutter-x: 0px;
+}
+.container-md {
+    padding: 0px;
+}
+.carousel {
+    height: 100%;
+    width: 100%;
+}
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+    width: 100%;
+}
+.d-block{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .header {
     background-color: green;
     height: 10vh;
@@ -58,7 +120,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     height: 100%;
 }
@@ -74,10 +136,10 @@
     text-decoration: none;
     color: black;
     border-radius: 8px;
-    border: solid green 2px;
-    padding: 3px;
+    border: solid green 3px;
+    padding: 2px;
     background-color: yellow;
-    transition: all 1s;
+    transition: all 0.2s;
 }
 .nav__item:hover {
     transform: scale(1.03)
@@ -263,7 +325,7 @@
     padding-right: 102px;
 }
 .labelGenero {
-    padding-left: 50%;
+    padding-left: 65%;
 }
 .labelNro {
     margin: 5px;
@@ -279,7 +341,13 @@
 }
 .enviar {
     width: 10%;
-    margin: 5px
+    padding: 0px;
+    margin: 5px;
+    border: 1px solid green;
+    height: 20px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 123);
+    color: black;
 }
 .main__aside {
     grid-area: aside;
@@ -441,8 +509,6 @@
     color: black;
 }
 .recuadro {
-    height: 100%;
-    width: 100%;
     margin: 5 px;
     border: 2px yellow solid;
     display: flex;
@@ -451,6 +517,8 @@
     overflow: hidden;
 }
 .recuadro__imagen {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border: 2px green solid;
     transition: all 2s;
@@ -460,6 +528,7 @@
 }
 .recuadro__epigrafe {
     align-self: center;
+    color: black;
 }
 .footer {
     background-color: green;
