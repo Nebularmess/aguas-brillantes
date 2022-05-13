@@ -89,6 +89,10 @@ span {
     width: 100%;
     object-fit: cover;
 }
+.li {
+    margin: 0px;
+    color: black;
+}
 .header {
     background-color: green;
     height: 10vh;
@@ -396,6 +400,7 @@ span {
     font-size: 20px;
     grid-area: titulo;
     text-align: center;
+    margin-bottom: 0px;
 }
 .donaciones__lista {
     border: green solid 2px;
