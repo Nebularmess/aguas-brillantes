@@ -15,6 +15,26 @@
 }
 .row {
     height: 50%;
+    margin: 0px;
+    justify-content: center;
+}
+.parrafoAside {
+    border: red 2px solid;
+    margin: 0px;
+    text-align: justify;
+    padding: 5px;
+}
+p {
+    margin-bottom: 0px;
+}
+.video {
+    align-self: center;
+    height: 180px;
+    width: 280px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border: yellow 2px solid;
 }
 .label {
     color: black;
@@ -130,8 +150,8 @@ span {
 .nav__item {
     margin-left: 1rem;
     transition: all 1s;
+    color: black;
 }
-
 .nav__enlace {
     text-decoration: none;
     color: black;
@@ -139,7 +159,7 @@ span {
     border: solid green 3px;
     padding: 2px;
     background-color: yellow;
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 .nav__item:hover {
     transform: scale(1.03)
