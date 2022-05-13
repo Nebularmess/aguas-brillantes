@@ -402,6 +402,35 @@ span {
     text-align: center;
     margin-bottom: 0px;
 }
+.card {
+    margin-bottom: 50px;
+    height: 250px;
+    width: 200px;
+    border: black 2px solid
+}
+.card-body {
+    width: 90%;
+    height: 50px;
+}
+.btn-primary {
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+    padding: 0px;
+}
+.imagenCred {
+    height: 90px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-title {
+    color: black;
+    font-size: 16px;
+}
+.card-text {
+    color: black;
+    font-size: 12px;
+}
 .donaciones__lista {
     border: green solid 2px;
     grid-area: lista;
